@@ -1,0 +1,363 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    
+    width: 100%;
+}
+.navbar{
+    position:relative;
+    width: 100%;
+    height: 80px;
+    margin:0;
+    background-color:white;
+   
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: rgb(6, 15, 145);
+    font-size: 40px;
+    float: left;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 80px;
+
+}
+.home{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.home li a{
+    text-decoration: none;
+    color:grey;
+    font-weight: bold;
+    font-family: arial;
+    transition: 0.3s ease-in-out;
+}
+.home li a:hover{
+    color: orangered;
+
+}
+.search{
+    
+    width: 330px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+
+   
+}
+#btn1{
+    width: 200px;
+    height: 40px;
+    background-color: orangered;
+    border: 2px solid white;
+    font-size: 15px;
+    color: snow;
+    margin-top: 20px;
+    margin-left:10px ;
+    border-radius: 25px;
+}
+#btn1:hover{
+    width: 200px;
+    height: 40px;
+    background-color: slategrey;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    margin-left:10px ;
+}
+.srch{
+    font-family: fantasy;
+    width: 250px;
+    height: 40px;
+    border: 2px solid white;
+    font-size: 15px;
+    float: left;
+    padding: 12px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn1{
+    display: block;
+    width: 80px;
+    height: 40px;
+    background-color:grey;
+    border: 2px solid white;
+    font-size: 15px;
+    color: aliceblue;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn1:hover{
+    color: orangered;
+    background-color: grey;
+
+}
+
+
+.box1{
+    position: fixed;
+    background-color: white;
+    overflow: hidden;
+    width: 270px;
+    flex-direction: column;
+    border: 1px solid grey;
+    height: 500px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 20px;
+    
+}
+.h21{
+    text-align: center;
+    color: darkblue;
+}
+.p1{
+    text-align:center;
+    color: darkgrey;
+
+}
+.search1{
+width: 200px;
+margin-left: 10px;
+height: 40px;
+border-radius:15px;
+border:2px solid grey ;
+text-align: center;
+}
+.btn2{
+    text-align: center;
+    margin-left: 35px;
+    width: 150px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: orangered;
+    border:2px solid white ;
+    border-radius: 10px;
+}
+.btn2:hover{
+    color: orangered;
+    background-color: grey;
+
+}
+.box2{
+    text-align: center;
+    border: 1px solid white;
+    width: 700px;
+    height: 470px;
+    margin-left: 300px;
+   
+
+}
+p{
+    color: black;
+}
+.list{
+   
+    margin-left: 300px;
+    color:darkblue;
+    background-color:white;
+    padding: 30px;
+    margin-right: 300px;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+    
+}
+
+.t1 li{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    list-style-type: none;
+    
+   
+}
+.t11 li{
+    background-color: white;
+}
+.t111 li{
+    background-color: white;
+}
+
+
+.t2 li{
+    
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    list-style-type: none;
+}
+.t21 li{
+    background-color: white;
+}
+.t211 li{
+    background-color: white;
+}.t3 li{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    list-style-type: none;
+}
+.t31 li{
+    background-color: white;
+}
+.t4{
+    
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    list-style-type: none;
+}
+.para{
+    color: orangered;
+    text-decoration: none;
+    
+}
+.para:hover{
+    color:grey;
+}
+.click{
+    color: #f97c06;
+    text-decoration: none;
+    
+}
+.FREE{
+    width: 200px;
+    background-color: orangered;
+    border: 3px solid white;
+    padding: 10px;
+}
+.FREE:hover{
+    color: orangered;
+    background-color: grey;
+    border-radius: 5px;
+}
+.trial{
+    text-align: center;
+    border: 2px solid gainsboro;
+    width: 700px;
+    margin-left: 300px;
+    padding: 20px 18px;
+    margin-top: -10px;
+    border-radius: 20px;
+}
+.p23{
+    text-align: center;
+}
+.fully{
+    text-align: left;
+    word-spacing: 12px;
+}
+.days{
+    width:100px;
+}
+.b1{
+    border: 1px solid lightgray;
+    text-align: center;
+    margin-left:500px;
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+}
+.b2{
+
+    border: 1px solid lightgray;
+    margin-left:500px;
+    text-align: center;
+    width: 500px;
+    height:400px;
+    padding: 40px;
+}
+.btmhover{
+
+    color: orangered;
+}
+.btmhover:hover{
+    font-size: 15px;
+    color: blueviolet;
+    
+}
+.b3{
+    border: 1px solid lightgray;
+    margin-left: 500px;
+    text-align: center;
+    width: 500px;
+    height:380px;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.b5{
+    margin-left: 600px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.LOCK{
+    margin-left: 350px;
+    border: 1px solid gainsboro;
+    border-right: none;
+    border-left: none;
+    border-bottom:none ;
+    width: 800px;
+    text-align: center;
+    word-spacing: 100px;
+    padding: 60px;
+}
+.b6{
+    border-radius: 5px;
+    background-color: rgb(140, 0, 255);
+    border: 2px solid lightgray;
+    height: 200px;
+    padding: 50px;
+    margin-left: 350px;
+    width: 800px;
+}
+.bot1{
+    border: 1px solid lightslategray;
+   align-items: center;
+    width: 800px;
+    height: 40px;
+    margin-left: 350px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(63, 133, 126);
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+.bot{
+    border: 1px solid lightgray;
+    background-color:dodgerblue;
+    color: rgb(252, 249, 246);
+    font-style:fantasy;
+    font-size: 15px;
+   border-radius: 10px;
+   padding: 5px;
+}
+.ending{
+    margin-left: 550px;
+    word-spacing: 10px;
+}

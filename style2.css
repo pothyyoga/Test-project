@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    height: 60px;
+    margin:0;
+    background-color:white;
+    border: 2px solid rgb(231, 225, 225);
+}
+.srch{
+    float: left;
+    margin-left:20px;
+    margin-top: 8px;
+}
+.home{
+    float: left;
+    margin-left:600px;
+    margin-top:20px;
+}
+.createbtn{
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 35px;
+    width: 150px;
+    font-size: 20px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+.createbtn:hover{
+    color: white;
+    float: right;
+    background-color: blue;
+}
+.login a:hover{
+   color: aqua;
+}
+.login a:link {
+    text-decoration: none;
+ } 
+ .box1{
+    float: left;
+    height: 1000px;
+    width:280px;
+    margin-top: 150px;
+    margin-left:40px;
+    position: fixed;
+ }
+ .box2{
+    width:730px;
+    margin-top: 50px;
+    margin-left:120px;
+    border: 2px solid rgb(231, 225, 225);
+ }
+ .box3{
+    border: 2px solid rgb(231, 225, 225);
+    height: 513px;
+    margin-left:849px;
+    width: 414px;
+    position: fixed;
+    margin-top: 40px;
+    background-color: rgb(231, 225, 225);
+ }
+ .box3-1{
+    border: 2px solid rgb(231, 225, 225);
+    height:300px;
+    width: 350px;
+    margin-top:5px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+ }
+ .box3-2{
+    border: 2px solid rgb(231, 225, 225);
+    width: 350px;
+    height: 210px;
+    margin-left:25px;
+    background-color: whitesmoke;
+ }
+ .follow{
+    height:40px; 
+    width:300px;
+    margin-left:25px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+ }
+ .follow:hover{
+    background-color:rgb(5, 5, 150);
+ }
+ .image1 {
+    width:727px;
+ }
+ .ytlink{
+    width:710;
+    height:399;
+ }
+ .box2-1{
+    text-align: center;
+    border: 1px solid gray;
+    background-color: rgb(240, 240, 240);
+    width:610px;
+    margin-top: 50px;
+    margin-left:60px;
+ }
+ .content{
+    text-align: center;
+ }
+ .commentdisc{
+    margin-left:60px;
+    height: 70px;
+    width: 600px;
+    text-align: left;
+    margin-top: 20px;
+ }
+ .li1:hover{
+    background-color: whitesmoke;
+}
+.li2:hover{
+    background-color:whitesmoke;
+}
+.li3:hover{
+    background-color: whitesmoke;
+}
+.li4:hover{
+    background-color:whitesmoke;
+}
+.li5:hover{
+    background-color: whitesmoke;
+}
+.li6:hover{
+    background-color:whitesmoke;
+}
+.li7:hover{
+    background-color:whitesmoke;;
+}
+
+.li8:hover{
+    background-color:whitesmoke;
+}
+.li9:hover{
+    background-color:whitesmoke;
+}
+.li10:hover{
+    background-color:whitesmoke;
+}
+.li11:hover{
+    background-color:whitesmoke;
+}
+.li12:hover{
+    background-color:whitesmoke;
+}
+.li13:hover{
+    background-color:whitesmoke;
+}
+.li14:hover{
+    background-color:whitesmoke;
+}
+.li15:hover{
+    background-color:whitesmoke;
+}
+.li16:hover{
+    background-color: whitesmoke;
+}
+.li17:hover{
+    background-color:whitesmoke;
+}
+.box2in2 {
+    text-align: center;
+    border: 2px solid gray;
+    background-color:rgb(240, 240, 240);
+    width:610px;
+    margin-top: 50px;
+    margin-left:60px;
+    margin-bottom:50px;
+}
+.btnsub{
+    float: right;
+    margin-right: 70px;
+    height: 30px;
+    width:100px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.btnsub:hover{
+    background-color: gray;
+    border: 1px solid  rgb(63, 60, 60);
+}
